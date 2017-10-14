@@ -20,7 +20,7 @@ public class Cliente {
             mensaje = new DataOutputStream(socket.getOutputStream());
  
             //Enviamos un mensaje
-            mensaje.writeUTF("Hola soy un cliente!!");
+            mensaje.writeUTF("Hola soy un cliente!!"); //Esto va a ser lo escrito por consola, hacer bucles y demas
  
             //Cerramos la conexión
             socket.close();
